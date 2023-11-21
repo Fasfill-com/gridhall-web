@@ -11,7 +11,7 @@
                 </div>
                 <p data-aos="fade-up" data-aos-delay="100" class="custom-container-text pl-0 text-justify" style="margin-top: -30px">Offering real-time information, ranging from latest fuel prices and other products available in refill stations enabling users get ahead of long grueling queues. As well as, SOS features that allow users have access to public and security agencies</p>
                 <!-- Centered Buttons -->
-                <div class="d-flex mb-2">
+                <div class="flex-button mb-2">
                     <a href="https://play.google.com/store/apps/details?id=com.gridhall.fasfill" target="_blank" class="btn btn-outline-secondary text-nowrap" data-aos="fade-up" data-aos-delay="0" style="text-transform: none;">
                         <img src="{{ asset('images/google-play.svg') }}" width="22" height="24" alt="Get it on Android">
                         Get it on Android
@@ -91,17 +91,17 @@
 </div> <!-- /end Verified space -->
 
 <!-- Experience the power -->
-<div class="untree_co-section" style="padding: 0;">
+<div class="untree_co-section mb-5" style="padding: 0;">
     <div class="container">
         <div class="row align-items-center justify-content-center">
             <div class="col-md-12 col-lg-5 custom-img">
                 <img class="img-fluid" src="{{ asset('images/fasfill-mobile.png') }}" width="100%" height="100%" data-aos="fade-up" data-aos-delay="0">
             </div>
-            <div class="col-md-12 col-lg-7">
+            <div class="col-md-12 col-lg-7 col-sm-12">
                 <div class="section-title" data-aos="fade-up" data-aos-delay="0">
                     <h3 class="line-bottom mb-1 heading">Download the Fasfill app today and be up to date with the news and services surrounding your nearby neighborhood and community</h3>
                 </div>
-                <div class="d-flex mb-2">
+                <div class="flex-button mb-2">
                     <a href="https://play.google.com/store/apps/details?id=com.gridhall.fasfill" target="_blank" class="btn btn-outline-secondary text-nowrap" data-aos="fade-up" data-aos-delay="0" style="text-transform: none;">
                         <img src="{{ asset('images/google-play.svg') }}" width="22" height="24" alt="Get it on Android">
                         Get it on Android

@@ -70,7 +70,7 @@
 </div> <!-- /end Mission... -->
 
 <!-- Our people -->
-<div class="untree_co-section">
+<div class="untree_co-section mb-5">
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-lg-6 justify-content-between">

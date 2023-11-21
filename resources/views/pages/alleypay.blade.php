@@ -13,14 +13,14 @@
                 <p class="alleypay-subheading" data-aos="fade-up" data-aos-delay="0">Open an account today and explore the vast array of financial services we offer our users to enable easy day-to-day transactions</p>
 
                 <!-- Centered Buttons -->
-                <div class="d-flex justify-content-center">
-                    <div class="col-md-6 col-lg-3 mb-4">
+                <div class="flex-button justify-content-center">
+                    <div class="col-md-12 col-sm-12 col-lg-3 mb-4">
                         <a href="#" class="btn btn-outline-primary btn-outline-primary-icon-1 btn-block" data-aos="fade-up" data-aos-delay="0">
                         <img src="{{ asset('images/google-play.svg') }}" width="22" height="24" style="padding-bottom: 5px" alt="Get it on Android">
                             Get it on Android
                         </a>
                     </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="col-md-12 col-sm-12 col-lg-3 mb-4">
                         <a href="#" class="btn btn-outline-primary btn-outline-primary-icon-1 btn-block" data-aos="fade-up" data-aos-delay="0">
                         <img src="{{ asset('images/apple-black.svg') }}" width="22" height="24" style="padding-bottom: 5px" alt="Get it on iPhone">
                             Get it on iPhone
@@ -132,7 +132,7 @@
 </div> <!-- /.end faspay -->
 
 <!-- Ready to join -->
-<div class="untree_co-section">
+<div class="untree_co-section mb-5">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -150,15 +150,15 @@
                     </div> <!-- /.row -->
                     <div class="row justify-content-center">
                         <!-- Centered Buttons -->
-                        <div class="d-flex ">
-                            <div class="col-md-6 col-lg-5">
+                        <div class="flex-button">
+                            <div class="col-md-6 col-sm-12 col-lg-5">
                                 <a href="#" class="btn btn-outline-secondary text-nowrap" data-aos="fade-up" data-aos-delay="0">
                                     <img src="{{ asset('images/google-play.svg') }}" width="22" height="24" style="padding-bottom: 5px" alt="Get it on Android">
                                     Get it on Android
                                 </a>
                             </div>
-                            <div class="m-2"></div>
-                            <div class="col-md-6 col-lg-5">
+                            <div class="flex-button-margin"></div>
+                            <div class="col-md-6 col-sm-12 col-lg-5">
                                 <a href="#" class="btn btn-outline-secondary text-nowrap" data-aos="fade-up" data-aos-delay="0">
                                     <img src="{{ asset('images/apple-white.svg') }}" width="22" height="24" style="padding-bottom: 5px" alt="Get it on iPhone">
                                     Get it on iPhone

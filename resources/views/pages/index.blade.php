@@ -97,7 +97,7 @@
 </div> <!-- /end services -->
 
 <!-- Founder's note -->
-<div class="untree_co-section">
+<div class="untree_co-section mb-5">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-lg-12 text-center">
@@ -122,7 +122,7 @@
                     technological advancements, but also due to key attributes unique to each city. </p>
                 <p data-aos="fade-up" data-aos-delay="100" class="about-content">Hence,
                     GridHall Incorporated plays a vital role in bridging the data gap”.</p>
-                <p><b>Mukhtar Gazali</br>
+                <p data-aos="fade-up" data-aos-delay="100" ><b>Mukhtar Gazali</br>
                         CEO, GridHall Inc.</b></p>
 
             </div>

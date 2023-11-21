@@ -56,7 +56,7 @@
                     <img class="img-fluid" src="{{ asset('images/cds.png') }}" width="100%">
                 </a>
                 <p class="case-title" data-aos="fade-up" data-aos-delay="0">City Demand Side Management</p>
-                <p class="case-content" data-aos="fade-up" data-aos-delay="0">Consumer demand for energy, water, and waste management as a day-to- day necessity must be
+                <p class="case-content mb-5" data-aos="fade-up" data-aos-delay="0">Consumer demand for energy, water, and waste management as a day-to- day necessity must be
                     driven together via investments in research.</p>
             </div>
         </div>
