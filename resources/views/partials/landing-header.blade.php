@@ -8,7 +8,7 @@
     <meta name="author" content="Gridhall.inc">
 
     <title>{{ config('app.name', 'Gridhall') }}</title>
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" href="{{ asset('images/gridhall-white.svg') }}">
 
     <meta name="description" content="GridHall Incorporated" />
     <meta name="keywords" content="gridhall, fasfill, alleypay, mapx" />
