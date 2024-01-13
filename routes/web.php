@@ -42,6 +42,10 @@ Route::get('/product/fasfill', function () {
     return view('pages.fasfill');
 })->name('fasfill');
 
+Route::get('/privacy-policy', function () {
+    return view('pages.privacy-policy');
+})->name('privacy-policy');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

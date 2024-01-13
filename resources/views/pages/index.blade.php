@@ -15,7 +15,7 @@
 
                         <h1 class="mb-4 heading text-white home-heading" data-aos="fade-up" data-aos-delay="100">GridHall Incorporated</h1>
                         <h5 class="caption mb-4 d-inline-block" data-aos="fade-up" data-aos-delay="100">Providing sustainable solutions for smart cities</h5>
-                        <p class="mb-0" data-aos="fade-up" data-aos-delay="300"><a href="#" class="btn btn-secondary">Button caption</a></p>
+                        <!-- <p class="mb-0" data-aos="fade-up" data-aos-delay="300"><a href="#" class="btn btn-secondary">Button caption</a></p> -->
 
                     </div>
 
