@@ -96,6 +96,7 @@
                         </ul>
                     </li>
                     <li><a href="{{ route('case-study') }}">Case Studies</a></li>
+                    <li><a href="{{ route('fasfill-privacy-policy') }}">Privacy Policy</a></li>
                 </ul>
 
                 <a href="{{ route('contact-us') }}" class="btn-book btn btn-light btn-sm menu-absolute">Contact Us</a>
