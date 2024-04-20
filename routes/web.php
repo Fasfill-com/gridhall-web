@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Response;
 
 /*
 |--------------------------------------------------------------------------
@@ -49,6 +51,37 @@ Route::get('/product/fasfill/privacy', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
+
+
+
+// Fasfill android Deep link
+Route::get('/assetlinks.json', function () {
+    $path = public_path('assetlinks.json');
+
+    // Check if the file exists
+    if (File::exists($path)) {
+        // Return the file as a response
+        return Response::file($path);
+    } else {
+        // If the file doesn't exist, return a 404 error
+        abort(404);
+    }
+});
+
+
+// Fasfill iOS Deep link
+Route::get('/apple-app-site-association', function () {
+    $path = public_path('apple-app-site-association.json');
+
+    // Check if the file exists
+    if (File::exists($path)) {
+        // Return the file as a response
+        return Response::file($path);
+    } else {
+        // If the file doesn't exist, return a 404 error
+        abort(404);
+    }
+});
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
