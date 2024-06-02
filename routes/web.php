@@ -90,9 +90,7 @@ Route::get('/assetlinks.json', function () {
 
 // Fasfill iOS Deep link
 Route::get('/apple-app-site-association', function () {
-    $path = public_path('apple-app-site-association');
-
-    return Response::file($path);
+    $path = public_path('apple-app-site-association.json');
 
     // Check if the file exists
     if (File::exists($path)) {
