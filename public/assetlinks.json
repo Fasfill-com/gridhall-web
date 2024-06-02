@@ -1,0 +1,9 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.gridhall.fasfill",
+      "sha256_cert_fingerprints":
+      ["57:C9:2A:E3:65:7A:B9:A2:03:4F:BF:39:03:0A:5B:06:40:C0:AE:99:94:25:97:C9:9A:76:EC:08:12:BC:FA:BF"]
+    }
+  }]

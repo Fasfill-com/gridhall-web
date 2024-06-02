@@ -1,7 +1,11 @@
 <?php
 
+use App\Http\Controllers\FasfillController;
 use App\Http\Controllers\ProfileController;
+use Illuminate\Contracts\Session\Session;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Response;
 
 /*
 |--------------------------------------------------------------------------
@@ -42,6 +46,24 @@ Route::get('/product/fasfill', function () {
     return view('pages.fasfill');
 })->name('fasfill');
 
+
+Route::get('/product/fasfill/account-deletion-request', function () {
+    return view('pages.fasfill-account-deletion');
+})->name('fasfill-account-deletion-request');
+
+Route::get('/product/fasfill/account-deletion-confirmed', function () {
+    return view('pages.fasfill-account-deletion-confirmed');
+})->name('fasfill.fasfill-account-deletion-confirmed');
+
+
+Route::post('/product/fasfill/account-deletion-request', [FasfillController::class, 'requestAccountDeletion'])->name('fasfill.request-deletion');
+Route::post('/product/fasfill/account-deletion-confirmed', [FasfillController::class, 'accountDeletionConfirmed'])->name('fasfill.request-confirmed');
+
+
+// Route::get('/product/fasfill/account-deletion-confirmed', function () {
+//     return view('pages.fasfill-account-deletion');
+// })->name('fasfill');
+
 Route::get('/product/fasfill/privacy', function () {
     return view('pages.privacy-policy');
 })->name('fasfill-privacy-policy');
@@ -50,10 +72,42 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+
+// Fasfill android Deep link
+Route::get('/assetlinks.json', function () {
+    $path = public_path('assetlinks.json');
+
+    // Check if the file exists
+    if (File::exists($path)) {
+        // Return the file as a response
+        return Response::file($path);
+    } else {
+        // If the file doesn't exist, return a 404 error
+        abort(404);
+    }
+});
+
+
+// Fasfill iOS Deep link
+Route::get('/apple-app-site-association', function () {
+    $path = public_path('apple-app-site-association');
+
+    return Response::file($path);
+
+    // Check if the file exists
+    if (File::exists($path)) {
+        // Return the file as a response
+        return Response::file($path);
+    } else {
+        // If the file doesn't exist, return a 404 error
+        abort(404);
+    }
+});
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

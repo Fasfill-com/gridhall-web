@@ -1,0 +1,24 @@
+{
+  "applinks":{
+    "apps":[
+
+    ],
+    "details":[
+      {
+        "appIDs":[
+          "BUR76762KH.com.gridhall.fasfill"
+        ],
+        "components":[
+          {
+            "/":"/business/",
+            "comment":"Path must start with /business/, so it may be /business/profile-customer-view, /business/profile-owner-view etc"
+          },
+          {
+            "/":"/event/",
+            "comment":"Path must start with /event/, so it may be /event/details etc."
+          }
+        ]
+      }
+    ]
+  }
+}
