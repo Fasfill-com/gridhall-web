@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-4 mr-auto">
                 <div class="widget">
-                    <h3><span class="text-primary"><img class="img-fluid" src="{{ asset('images/logo-light.png') }}" style="width: 32px; height:32px"></span> GridHall Limited</h3>
+                    <h3><span class="text-primary"><img class="img-fluid" src="{{ asset('images/logo-light.png') }}" style="width: 32px; height:32px"></span> GridHall Inc.</h3>
                     <p style="margin-top: -25px; color:#EDEDEDD0">Providing sustainable solutions for smart cities</p>
                 </div> <!-- /.widget -->
                 <div class="widget" style="margin-top: -25px;">
@@ -28,15 +28,16 @@
                 </div> <!-- /.widget -->
             </div> <!-- /.col-lg-3 -->
 
-            <div class="col-lg-2">
+            <!-- <div class="col-lg-2">
                 <div class="widget">
                     <h3>Solution</h3>
                     <ul class="list-unstyled float-left links">
                         <li><a href="#">Research Areas</a></li>
                         <li><a href="#">Services</a></li>
                     </ul>
-                </div> <!-- /.widget -->
-            </div> <!-- /.col-lg-3 -->
+                </div>
+            </div> -->
+             <!-- /.col-lg-3 -->
 
 
             <div class="col-lg-2">
@@ -44,7 +45,7 @@
                     <h3>Platforms</h3>
                     <ul class="list-unstyled float-left links">
                         <li><a href="{{ route('fasfill') }}">Fasfill</a></li>
-                        <li><a href="{{ route('mapx') }}">MapX</a></li>
+                        <!-- <li><a href="{{ route('mapx') }}">MapX</a></li> -->
                     </ul>
                 </div> <!-- /.widget -->
             </div> <!-- /.col-lg-3 -->

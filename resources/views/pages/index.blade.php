@@ -97,7 +97,7 @@
 </div> <!-- /end services -->
 
 <!-- Founder's note -->
-<div class="untree_co-section mb-5">
+<!-- <div class="untree_co-section mb-5">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-lg-12 text-center">
@@ -128,6 +128,7 @@
             </div>
         </div>
     </div>
-</div> <!-- /end founder's note -->
+</div> -->
+<!-- /end founder's note -->
 
 @endsection

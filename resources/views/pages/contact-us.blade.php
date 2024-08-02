@@ -29,7 +29,7 @@
                     <div class="phone mt-4">
                         <i class="icon-phone" style="background: #fff; color:#161616"></i>
                         <h4 class="mb-2"><b>Phone Number</b></h4>
-                        <p class="mb-1 mr-6"><b>Adipiscing cras facilisis</b></p>
+                        <!-- <p class="mb-1 mr-6"><b>Adipiscing cras facilisis</b></p> -->
                         <p>+16137006201</p>
                         <p>+234 803 395 7099</p>
                     </div>
@@ -37,7 +37,7 @@
                     <div class="email mt-4">
                         <i class="icon-envelope" style="background: #fff; color:#161616"></i>
                         <h4 class="mb-2"><b>Email</b></h4>
-                        <p class="mb-1 mr-6"><b>Adipiscing cras facilisis</b></p>
+                        <!-- <p class="mb-1 mr-6"><b>Adipiscing cras facilisis</b></p> -->
                         <p>info@gridhall.com</p>
                     </div>
 

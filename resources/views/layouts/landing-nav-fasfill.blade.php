@@ -23,7 +23,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="col-md-12 col-lg-4">
+                                    <!-- <div class="col-md-12 col-lg-4">
                                         <a href="{{ route('alleypay') }}">
                                             <div class="d-flex mt-2">
                                                 <img src="{{ asset('images/alleypay-icon-nav.svg') }}" width="28" height="28" alt="Alleypay">
@@ -43,12 +43,12 @@
                                             <p class="custom-nav-link-description" data-aos="fade-up" data-aos-delay="0">Navigation and location area
                                                 mapping platform</p>
                                         </a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </ul>
                     </li>
-                    <li class="has-children">
+                    <!-- <li class="has-children">
                         <a href="#">Target Industries</a>
                         <ul class="dropdown">
                             <div class="container custom-nav-container-v2">
@@ -94,7 +94,7 @@
                                 </div>
                             </div>
                         </ul>
-                    </li>
+                    </li> -->
                     <li><a href="{{ route('case-study') }}">Case Studies</a></li>
                     <li><a href="{{ route('fasfill-privacy-policy') }}">Privacy Policy</a></li>
                 </ul>

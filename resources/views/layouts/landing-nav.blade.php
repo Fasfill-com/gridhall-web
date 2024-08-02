@@ -23,7 +23,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="col-md-12 col-lg-4">
+                                    <!-- <div class="col-md-12 col-lg-4">
                                         <a href="{{ route('alleypay') }}">
                                             <div class="d-flex mt-2">
                                                 <img src="{{ asset('images/alleypay-icon-nav.svg') }}" width="28" height="28" alt="Alleypay">
@@ -43,14 +43,14 @@
                                             <p class="custom-nav-link-description" data-aos="fade-up" data-aos-delay="0">Navigation and location area
                                                 mapping platform</p>
                                         </a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </ul>
                     </li>
-                    <li class="has-children">
-                        <a href="#">Target Industries</a>
-                        <ul class="dropdown">
+                    <!-- <li class="has-children">
+                        <a href="#">Target Industries</a> -->
+                        <!-- <ul class="dropdown">
                             <div class="container custom-nav-container-v2">
                                 <div class="row custom-nav-row">
                                     <div class="col-md-12 col-lg-6">
@@ -93,8 +93,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </ul>
-                    </li>
+                        </ul> -->
+                    <!-- </li> -->
                     <li><a href="{{ route('case-study') }}">Case Studies</a></li>
                 </ul>
 
